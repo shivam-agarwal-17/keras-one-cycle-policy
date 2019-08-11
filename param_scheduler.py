@@ -1,3 +1,5 @@
+import numpy as np
+
 class ParamScheduler:
     def __init__(self, start, end, num_iter):
         self.start = start

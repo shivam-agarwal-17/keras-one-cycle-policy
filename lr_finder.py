@@ -1,3 +1,4 @@
+import numpy as np
 import math
 import keras.backend as K
 from keras.callbacks import LambdaCallback
