@@ -65,7 +65,7 @@ class LRFinder:
         plt.xscale('log') 
         if suggestion:
             dx = np.log10(self.lr_multiplier) # spacing along log-lr axis
-            min_grad_idx = np.argmin(np.gradient(np.array(self.losses), dx))
+            min_grad_idx = np.argmin(np.gradient(np.array(self.losses[skip_start:-skip_end]), dx))+skip_start
             self.min_loss_grad_lr = self.lrs[min_grad_idx]
             plt.plot(self.lrs[min_grad_idx], self.losses[min_grad_idx], 'ro')
             print("Min. loss grad point, lr: {}, loss: {}".format(self.lrs[min_grad_idx],self.losses[min_grad_idx]))
