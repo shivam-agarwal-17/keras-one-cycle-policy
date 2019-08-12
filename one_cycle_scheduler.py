@@ -1,5 +1,6 @@
 import keras.backend as K
 from keras.callbacks import Callback
+from param_scheduler import CosineScheduler
 
 class OneCycleScheduler(Callback):
     
