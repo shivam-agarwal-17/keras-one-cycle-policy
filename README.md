@@ -1,4 +1,4 @@
-# Keras-training-tools 
+# Keras One Cycle Policy
 
 Implementation of some of the very effective tools for training Deep Learning (DL) models that I came across while doing the fastai course on [Practical Deep Learning for Coders](https://course.fast.ai/). 
 
