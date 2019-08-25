@@ -13,4 +13,3 @@ My implementations are a port of the code in [fastai library](https://github.com
 
 Here's another article I referred to: [How Do You Find A Good Learning Rate](https://sgugger.github.io/how-do-you-find-a-good-learning-rate.html) by Sylvain Gugger of fastai which provides an intuitive understanding of how fastai's LR finder works. 
 
-I'll keep updating this repository with the new tools I come across that could be practically useful for training a DL model.
