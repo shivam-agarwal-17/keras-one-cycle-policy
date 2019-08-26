@@ -11,7 +11,7 @@ setuptools.setup(
     description="Keras implementation of One Cycle Policy and LR Finder",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/shivam-agarwal-17/Keras-training-tools",
+    url="https://github.com/shivam-agarwal-17/keras-one-cycle-policy",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
